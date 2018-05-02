@@ -571,7 +571,7 @@ body:not(.safari){
 
   .logo{
 
-    width: 60vw;
+    width: 100vw;
 
     position: absolute;
     top: 50%;
@@ -595,8 +595,8 @@ body:not(.safari){
 
   &.home{
     height: 80vh;
-    background: url($baseurl + '/assets/img/static/header-home.jpg') no-repeat;
     background-size: cover;
+    background-color: #7288ff;
     background-position: center;
 
     @media only screen and (max-width: 640px) {
