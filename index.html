@@ -16,120 +16,14 @@ layout: default
         <div class="content-wrap">
 
             <!-- INSPECT: {{ site.dw | inspect}} -->
-                  <h1 class="regular">edulabs fördert offene & zeitgemäße Bildung</h1>
-                  <p>Wie lässt sich Lernen offen gestalten? Wir unterstützen und vernetzen Menschen, die neue, digitale Bildungsformate entwickeln und unter freien Lizenzen teilen.</p>
+                  <h1 class="regular">Wie gelingt Bildung für eine offene digitale Gesellschaft?</h1>
+                  <p>Mit dem „Forum Open:Education“ möchten edulabs und das Bündnis freie Bildung die Debatte um zeitgemäßes Lehren und Lernen voranbringen und den Austausch zwischen Zivilgesellschaft, Bildungspraxis und politischen Entscheidungsgremien fördern.</p>
               </div>
               <div class="content-wrap btn-wrap">
-                  <a class="edu-btn black" href="/about" target="_blank">Über das Projekt</a>
+                  <a class="edu-btn black" href="/about" target="_blank">Zum Programm</a>
               </div>
     </section>
 </div>
 
-<!-- Angebote -->
-<div class="row">
-    <section id="labs" class="section green col-xs-24">
-        <div class="content-wrap">
-            <h2 class="section-headline">Angebote</h2>
-            <p>Das Projekt arbeitet auf den folgenden Ebenen, um zeitgemäße Bildung voranzubringen</p>
-        </div>
-        <!-- teasers -->
-        {% include partials/offer-teasers.liquid %}
-    </section>
-</div>
-
-<!-- themen -->
-<div class="row">
-    <section class="section col-xs-24">
-        <div class="content-wrap topic-wrap">
-            <h2 class="section-headline">Themen</h2>
-            <h3 class="about-subline blue">edulabs engagiert sich in den folgenden Bereichen</h3>
-            <div class="col-md-12">
-                <img class="topic-img" src="/assets/img/static/Global_Open_Educational_Resources_Logo.svg"/>
-                <span class="caption align-right"><a href="/about/OER#lizenz">Zum Lizenzhinweis</a></span>
-            </div>
-            <div class="col-md-12 subpage-content">
-                <ul class ="topic-list">
-                    <li><strong>Open Source & digital gestützte Methoden:</strong><br>edulabs unterstützt innovative Formate, die Medienbildung fördern und frei nachnutzbar sind.</li>
-                    <li><strong>Zeitgemäße Bildung:</strong><br>Wir fördern partizipative und kompetenzorientierte Bildungsformate.</li>
-                    <li><strong>Open Educational Resources:</strong><br>Wir helfen bei der Verbreitung und Entwicklung von frei lizenzierten Bildungsmaterialien <a href="/about/OER" target="_blank">...Mehr</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="content-wrap topic-wrap btn-wrap" style="clear: both;">
-            <a class="edu-btn black" href="/about" target="_blank">Über das Projekt</a>
-        </div>
-    </section>
-</div>
-
-<!-- blog -->
-<div class="row">
-    <section class="section green col-xs-24">
-        <div class="content-wrap">
-            <h2 class="section-headline">Aus dem Blog</h2>
-        </div>
-        <!-- blog teasers -->
-        <div class="isotope-wrap col-xs-22 col-xs-push-1 no-padding">
-            <div class="grid-sizer col-xs-24 col-sm-12 col-md-8 col-lg-6 col-xlg-4"></div>
-
-            {% assign posts = site.posts %}
-            {% for post in posts limit:12 %}
-                {% if post.visible == 0  %}
-                {% else %}
-                  {% assign categories = post.categories | join:', ' %}
-                  {% assign categories = "#" | append:categories %}
-                  {% include partials/blog/blog-teaser.liquid date=post.date featured=post.featured url=post.url filter=post.categories categories=categories src=post.teaser_img_src headline=post.title copy=post.teaser %}
-                {% endif %}
-            {% endfor %}
-        </div>
-        <div class="content-wrap btn-wrap">
-            <a class="edu-btn black" href="/blog" target="_blank">Alle anzeigen</a>
-        </div>
-    </section>
-</div>
-
-<!-- OER-Sammlung -->
-<div class="row">
-    <section class="section col-xs-24">
-        <div class="content-wrap">
-            <h2 class="section-headline">Zeitgemäße Unterrichtsideen</h2>
-            <p>Die edulabs-Redaktion empfiehlt ausgewählte Unterrichtsideen, um zeitgemäße Bildung und Partizipation zu fördern. Alle Materialien findet ihr in der folgenden Sammlung:</p>
-        </div>
-        <a href="{{ site.baseurl }}/oer" target="_blank"><img class="img-responsive" src="/assets/img/static/oer_filters_frontpage.jpg"/></a>
-        <div class="content-wrap btn-wrap">
-            <a class="edu-btn black" href="{{ site.baseurl }}/oer" target="_blank">Zur Sammlung</a>
-        </div>
-    </section>
-</div>
-
-<!-- Projekte und Initiativen -->
-<div class="row">
-    <section class="section green col-xs-24">
-        <div class="content-wrap">
-            <h2 class="section-headline">Projekte und Initiativen</h2>
-            <p>Die edulabs-Community setzt sich mit zahlreichen Initiativen für zeitgemäße, offene Bildung ein. Werde Teil der Community, unterstütze Projekte oder starte dein eigenes Vorhaben.</p>
-        </div>
-        <div class="row">
-            {% include partials/project/project-isotope.liquid homepage=true %}
-        </div>
-        <div class="content-wrap btn-wrap">
-            <a class="edu-btn black" href="{{ site.baseurl }}/projects" target="_blank">Weitere Projekte</a>
-        </div>
-    </section>
-</div>
-
-<!-- über das projekt -->
-<div class="row">
-    <section class="section col-xs-24">
-        <div class="content-wrap">
-            <h2 class="section-headline">Über das Projekt</h2>
-            <h3 class="blue about-subline">Wie lässt sich offene Bildung mit digital gestützten Methoden
-                gestalten? </h3>
-            <p>edulabs versteht sich als überregionaler Inkubator, in dem Menschen ihre didaktischen, technischen und gestalterischen Fähigkeiten einsetzen, um zusammen innovative und nachnutzbare Bildungsmaterialien zu entwickeln. Wir unterstützen die Community redaktionell, didaktisch, technisch, sowie bei der Organisation von Events.</p>
-        </div>
-        <div class="content-wrap btn-wrap">
-            <a class="edu-btn black" href="/about" target="_blank">mehr</a>
-        </div>
-    </section>
-</div>
 <!-- include mitmachen section -->
 {% include partials/sections/apply.liquid %}

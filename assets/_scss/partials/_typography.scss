@@ -9,6 +9,15 @@ here or just use this to establish your typographical grid. Or not.
 Do whatever you want to...GOSH!
 
 ******************************************************************/
+@font-face {
+      font-family: 'lackregular';
+      src: url($baseurl + '/assets/fonts/Lack-Regular.eot');
+      src: url($baseurl + '/assets/fonts/Lack-Regular.eot#iefix') format('embedded-opentype'),
+           url($baseurl + '/assets/fonts/Lack-Regular.woff') format('woff'),
+           url($baseurl + '/assets/fonts/Lack-Regular.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
 
 @font-face {
       font-family: 'fontello';
@@ -53,6 +62,7 @@ https://github.com/devinhunt/typebase.css
 I've edited it a bit, but it's a nice starting point.
 */
 
+$font-lack:    'lackregular', sans-serif;
 $font-karla:    'Karla', sans-serif;
 $font-worksans:    'Work Sans', sans-serif;
 $font-mono:    'liberation_monoregular', sans-serif;

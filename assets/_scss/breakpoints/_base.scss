@@ -29,7 +29,7 @@ html, body{
 
 body {
   height: 100%;
-  font-family: $font-karla;
+  font-family: $font-lack;
   font-size: 100%;
   line-height: 1.5;
   color: $text-color;
@@ -476,7 +476,7 @@ HEADER STYLES
       background-color: $white;
       margin-top: -6px;
       font-size: 1.5rem;
-      font-family: $font-mono;
+      font-family: $font-lack;
       position: absolute;
       width: 100%;
       padding: 0;
@@ -1113,7 +1113,7 @@ FOOTER STYLES
     li{
 
       &.nav-footer-headline{
-        font-family: $font-karla;
+        font-family: $font-lack;
         font-weight: 700;
       }
 
@@ -1146,7 +1146,7 @@ FOOTER STYLES
                 }
 
             i {
-                font-family: 'fontello';
+                font-family: 'lackregular';
                 margin-right: 15px;
                 font-style: normal;
                 speak: none;
