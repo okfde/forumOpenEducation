@@ -1,8 +1,9 @@
-# edulabs
+# Forum Open:Education
 
-edulabs sind lokale Gruppen aus Menschen, die ihre didaktischen, technischen und gestalterischen Fähigkeiten einsetzen, um zusammen innovative und nachnutzbare Bildungsmaterialien zu entwickeln.
+Wie gelingt Bildung für eine offene digitale Gesellschaft?
+Mit dem "Forum Open:Education" möchten edulabs und das Bündnis freie Bildung die Debatte um zeitgemäßes Lehren und Lernen voranbringen und den Austausch zwischen Zivilgesellschaft, Bildungspraxis und politischen Entscheidungsgremien fördern.
 
-<img src="assets/img/static/edulabs-logo.svg" width="300" align="center">
+<img src="assets/img/static/logo_main.svg" width="300" align="center">
 
 # License
 
