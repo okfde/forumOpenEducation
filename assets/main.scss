@@ -43,6 +43,8 @@ $baseurl: "{{ site.baseurl }}";
 @import "../svg-build/sass/style";
 
 
+
+
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -175,3 +177,7 @@ be set to display none.
   @import "breakpoints/print";
 
 }
+
+//customizations
+
+@import "partials/custom";
