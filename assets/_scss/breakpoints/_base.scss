@@ -1242,19 +1242,3 @@ FOOTER STYLES
     position: absolute;
 }
 
-/*********************
-Forum Open - Logos
-*********************/
-
-.logos{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding-bottom: 10px;
-    .logo {
-        padding-top: 60px;
-        img {
-            max-width: 60%;
-        }
-    }
-  }
