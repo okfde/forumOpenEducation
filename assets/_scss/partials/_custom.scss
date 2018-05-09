@@ -51,12 +51,42 @@ Forum Open - Logos
    justify-content: center;
    padding-bottom: 10px;
    padding-top: 30px;
-    .logo {
-        padding-top: 0px;
-        margin-bottom: 10px;
 
-        img {
-            max-width: 80%;
-        }
-    }
+   .logo-1 {
+    
+   }
+
+   .logo {
+       a {
+         display: block;
+         height: 100%;
+       }
+
+       padding-top: 0px;
+       margin-bottom: 10px;
+       min-height: 100px;
+       align-items: center;
+       justify-content: center;
+       padding-bottom: 10px;
+       padding-top: 30px;
+
+       img {
+         &.logo-1 {
+         }
+         &.logo-2 {
+         }
+         &.logo-3 {
+         }
+         &.logo-4 {
+            max-width: 70%;
+         }
+         &.logo-5 {
+            max-width: 40%;
+            @media only screen and (min-width: 375px) {
+              max-width: 70%;
+            }
+         }
+         max-width: 80%;
+       }
+   }
  }
