@@ -25,6 +25,10 @@ Customizations for startpage
     ul {
         text-align: left;
         line-height: 1.6em;
+        list-style-type: none;
+        li::before {
+            content: "";
+        }
     }
     .timeline {
         margin: auto;
@@ -52,7 +56,7 @@ Forum Open - Logos
         margin-bottom: 10px;
 
         img {
-            max-width: 60%;
+            max-width: 80%;
         }
-   }
+    }
  }
