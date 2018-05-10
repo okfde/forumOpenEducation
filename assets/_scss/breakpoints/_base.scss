@@ -1242,3 +1242,17 @@ FOOTER STYLES
     position: absolute;
 }
 
+.section-timeline{
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    ul {
+        padding-left: 0px !important;
+        line-height: 1.6em;
+        list-style-type: none;
+        li::before {
+            content: "";
+        }
+    }
+
+}

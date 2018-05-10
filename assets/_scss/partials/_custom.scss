@@ -15,27 +15,6 @@ Customizations for startpage
 }
 
 
-.section-timeline{
-    width: 100%;
-    padding: 30px 0;
-    text-align: center;
-    h1 {
-        text-align: center;
-    }
-    ul {
-        text-align: left;
-        line-height: 1.6em;
-        list-style-type: none;
-        li::before {
-            content: "";
-        }
-    }
-    .timeline {
-        margin: auto;
-        width: 50%;
-    }
-}
-
 ul li {
   padding-left: 0.5em;
   text-indent: -0.5em;
