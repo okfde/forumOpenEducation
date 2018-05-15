@@ -9,6 +9,13 @@ Customizations for startpage
   text-align: center;
 }
 
+.main-subline {
+  text-align: center;
+  font-size: 1.6em;
+  color: #04dc68;
+
+}
+
 .subpage-content p {
   line-height: 1.6em;
   text-align: center;
@@ -66,7 +73,7 @@ Forum Open - Logos
                 max-width: 70%;
             }
             }
-         
+
          &.logo-3 {
            max-width: 50%;
             @media only screen and (min-width: 375px) and (max-width: 1024px) {
