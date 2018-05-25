@@ -99,3 +99,16 @@ Forum Open - Logos
        }
    }
  }
+
+
+
+   .page-wrap ul li::before {
+    margin-right: 5px;
+    content: "\2022";
+    color: #fff;
+    display: inline-block;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.6em;
+    line-height: 1;
+    left: 0;
+}
