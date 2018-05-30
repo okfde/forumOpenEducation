@@ -1,7 +1,7 @@
 # Forum Open:Education
 
 Wie gelingt Bildung für eine offene digitale Gesellschaft?
-Mit dem "Forum Open:Education" möchten edulabs und das Bündnis freie Bildung die Debatte um zeitgemäßes Lehren und Lernen voranbringen und den Austausch zwischen Zivilgesellschaft, Bildungspraxis und politischen Entscheidungsgremien fördern.
+Mit dem "Forum Open:Education" möchten edulabs und das Bündnis Freie Bildung die Debatte um zeitgemäßes Lehren und Lernen voranbringen und den Austausch zwischen Zivilgesellschaft, Bildungspraxis und politischen Entscheidungsgremien fördern.
 
 <img src="assets/img/static/logo_main.svg" width="300" align="center">
 
