@@ -7,28 +7,10 @@
             {% assign base_dir = page.url | split:'/'  %}
             {% assign base_dir = base_dir  %}
             <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline">Programm</a></li>
+            <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline#team">Speaker</a></li>
             <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdS3FbGAMRCEH41l698dUa3cSgVD6eAH3tlgeU6xrrX4Yb95g/viewform">Anmelden</a></li>
-            <li class="search mobile" style="display: none">
-                <form action="" method="get">
-                    <div class="form-group">
-                        <input class="search-field mobile" type="text" name="search" placeholder="Suche...">
-                    </div>
-                </form>
-                <div class="search-icon mobile">
-                    <img src="{{ site.baseurl }}/assets/img/static/search-icon.svg"/>
-                </div>
-            </li>
+            
         </ul>
-        <div class="search desktop">
-            <form action="#" method="get">
-                <div class="form-group">
-                    <input id="search-query" class="search-field desktop" type="text" name="q" autocomplete="off" placeholder="Suche..." onkeypress="return event.keyCode!=13">
-                </div>
-            </form>
-        </div>
-        <div class="search-icon desktop">
-            <img src="{{ site.baseurl }}/assets/img/static/search-icon.svg"/>
-        </div>
-        <div class="nav-toggle"><span></span></div>
+        
     </div>
 </header>
