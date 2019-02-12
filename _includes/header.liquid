@@ -6,10 +6,20 @@
         <ul class="main-nav">
             {% assign base_dir = page.url | split:'/'  %}
             {% assign base_dir = base_dir  %}
-            <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline">Programm</a></li>
-            <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline#team">Speaker</a></li>
-            <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="https://edulabs.de/blog/Rueckblick-Forum-Open">Rückblick & Doku</a></li>
+            {% assign url = page.url  %}
+            {% if url != "/2019/"%}
+                <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline">Programm</a></li>
+                <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline#team">Speaker</a></li>
+                <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="https://edulabs.de/blog/Rueckblick-Forum-Open">Dokumentation</a></li>
+                <li {% if base_dir[1] == '2019' %} class="current" {% endif %}><a href="/2019">Zum FOE 2019</a></li>
+            {% endif %}
+
+            {% if url != "/"%}
+                <li>Save the Date: 26. Juni 2019</li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeBJ8YvRIIw8h7GejliqVljYbwF09JXjrUC8FmNnzqt_tpuJg/viewform?usp=sf_link">Voranmeldung</a></li>
+                <li {% if base_dir[1] == '2018' %} class="current" {% endif %}><a href="/">Zum FOE 2018</a></li>
+            {% endif %}
         </ul>
-        
+        <div class="nav-toggle"><span></span></div>
     </div>
 </header>
