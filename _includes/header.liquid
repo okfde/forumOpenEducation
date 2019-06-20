@@ -8,27 +8,22 @@
             {% assign base_dir = base_dir  %}
             {% assign url = page.url  %}
 
-            {% if (url != "/") and (url != "/timeline-19/") %}
+            {% if (url != "/") and (url != "/timeline-19/") and (url != "/stream/") %}
                 <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline">Programm</a></li>
                 <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline#team">Speaker</a></li>
                 <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="https://edulabs.de/blog/Rueckblick-Forum-Open">Dokumentation</a></li>
                 <li {% if base_dir[1] == '2019' %} class="current" {% endif %}><a href="/">Zum FOE 2019</a></li>
-            {% endif %}
 
-            {% if url == "/"%}
+            {% else %}
+
                 <li>#FOE19: 26. Juni 2019</li>
                 <li {% if base_dir[1] == 'timeline-19' %} class="current" {% endif %}><a href="/timeline-19">Programm</a></li>
                 <li {% if base_dir[1] == 'timeline-19' %} class="current" {% endif %}><a href="/timeline-19#team">Speaker</a></li>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeBJ8YvRIIw8h7GejliqVljYbwF09JXjrUC8FmNnzqt_tpuJg/viewform?usp=sf_link">Anmeldung</a></li>
+                <li {% if base_dir[1] == 'stream' %} class="current" {% endif %}><a href="/stream">Stream</a></li>
                 <li {% if base_dir[1] == '2018' %} class="current" {% endif %}><a href="/2018">Zum FOE 2018</a></li>
             {% endif %}
 
-            {% if url == "/timeline-19/"%}
-                <li {% if base_dir[1] == 'timeline-19' %} class="current" {% endif %}><a href="/timeline-19">Programm</a></li>
-                <li {% if base_dir[1] == 'timeline-19' %} class="current" {% endif %}><a href="/timeline-19#team">Speaker</a></li>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeBJ8YvRIIw8h7GejliqVljYbwF09JXjrUC8FmNnzqt_tpuJg/viewform?usp=sf_link">Anmeldung</a></li>
-                <li {% if base_dir[1] == '2018' %} class="current" {% endif %}><a href="/2018">Zum FOE 2018</a></li>
-            {% endif %}
+
         </ul>
         <div class="nav-toggle"><span></span></div>
     </div>

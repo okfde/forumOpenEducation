@@ -1,7 +1,7 @@
 <footer class="footer section white">
             {% assign url = page.url  %}
             <div class="logos">
-                {% if (url != "/") and (url != "/timeline-19/") %}
+                {% if (url != "/") and (url != "/timeline-19/") and (url != "/stream/") %}
                     <div class="row">
                        <div class="logo col-xs-8 col-md-4 col-lg-4">
                         <a href="https://okfn.de/" target="_blank">
@@ -38,9 +38,9 @@
                             <img  style="max-width: 65%" src="{{ site.baseurl }}/assets/img/static/logo-bmbf.jpg"/>
                         </a>
                     </div>
-                {% endif %}
 
-                {% if (url == "/") or (url == "/timeline-19/") %}
+
+                {% else %}
                     <div class="logo col-xs-8 col-md-4 col-lg-4">
                         <a href="https://buendnis-freie-bildung.de/" target="_blank">
                             <img style="max-width: 45%;" src="{{ site.baseurl }}/assets/img/static/Logo_Bündnis_Freie_Bildung_hochkant.png"/>
