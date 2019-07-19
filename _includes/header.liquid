@@ -10,7 +10,6 @@
 
             {% if (url != "/") and (url != "/timeline-19/") and (url != "/stream/") %}
                 <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline">Programm</a></li>
-                <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline#team">Speaker</a></li>
                 <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="https://edulabs.de/blog/Rueckblick-Forum-Open">Dokumentation</a></li>
                 <li {% if base_dir[1] == '2019' %} class="current" {% endif %}><a href="/">Zum FOE 2019</a></li>
 
@@ -18,8 +17,7 @@
 
                 <li>#FOE19: 26. Juni 2019</li>
                 <li {% if base_dir[1] == 'timeline-19' %} class="current" {% endif %}><a href="/timeline-19">Programm</a></li>
-                <li {% if base_dir[1] == 'timeline-19' %} class="current" {% endif %}><a href="/timeline-19#team">Speaker</a></li>
-                <li {% if base_dir[1] == 'stream' %} class="current" {% endif %}><a href="/stream">Stream</a></li>
+                <li {% if base_dir[1] == 'stream' %} class="current" {% endif %}><a href="/stream">Dokumentation</a></li>
                 <li {% if base_dir[1] == '2018' %} class="current" {% endif %}><a href="/2018">Zum FOE 2018</a></li>
             {% endif %}
 
