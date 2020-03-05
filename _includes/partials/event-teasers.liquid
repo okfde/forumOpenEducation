@@ -1,0 +1,5 @@
+<div class="lab-teaser-wrap col-xs-22 col-xs-push-1 col-md-20 col-md-push-2 col-lg-18 col-lg-push-3">
+    {% for events in site.events %}
+        {% include partials/event-teaser.liquid name=events.title events=events.events url=events.link src=events.src copy=events.headline %}
+    {% endfor %}
+</div>

@@ -66,6 +66,8 @@ collections:
     permalink: /projects/:title/edit
   offers:
     output: false
+  events:
+    output: false
 
 defaults:
  -
