@@ -91,7 +91,9 @@ teasers
     transform: scale(1);
 
     @include teaser-shadow-hover();
-
+    .teaser-copy{
+      color: $primary-color;
+      }
   }
 
   &.member-teaser{
@@ -114,6 +116,7 @@ teasers
     .member-teaser-content{
       .teaser-copy{
         margin-top: 0;
+
       }
     }
   }
@@ -214,6 +217,7 @@ teasers
     .teaser-copy{
       font-size: 1.42rem;
       margin-top: 0;
+
     }
   }
 

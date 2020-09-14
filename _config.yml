@@ -68,6 +68,8 @@ collections:
     output: false
   events:
     output: false
+  groups:
+    output: false
 
 defaults:
  -
