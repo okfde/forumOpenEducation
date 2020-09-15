@@ -7,10 +7,9 @@
         {% endif %}
         <div class="teaser-content lab-teaser-content">
             <h3 class="teaser-headline">{{ include.name }}</h3>
-            <p class="teaser-copy">{{ include.copy }}</p>
-        </div>
-        <div class="teaser-buttons-wrap">
-                <a class="edu-btn black" href="{{ include.url }}">Zur Gruppe {{ include.group }}</a>
+            {% if include.copy %}<p class="teaser-copy"><strong class="teaser-feature">Thema</strong></br>{{ include.copy }}</p>{% endif %}
+            {% if include.attendees %}<p class="teaser-copy"><strong class="teaser-feature">Teilnehmende</strong></br>{{ include.attendees }}</p>{% endif %}
+            {% if include.moderation %}<p class="teaser-copy"><strong class="teaser-feature">Moderation</strong></br>{{ include.moderation }}</p>{% endif %}
         </div>
     </div>
 </div>
