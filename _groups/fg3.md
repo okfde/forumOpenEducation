@@ -14,7 +14,7 @@ moderation: "Maximilian Voigt"
 
 ---
 
-{% include partials/content/content-infobox.liquid float="right" headline="Die Autorinnen und Autoren" copy="- Margit Stumpp<br>- André Hermes<br>- Martin Bregenzer<br>- Stefanie Rack<br>- Stefan Kretzmann<br>- Hannah Ballmann<br>- Mandy Schütze<br><br>Moderation:<br>Maximilian Voigt<br><br><a class='edu-btn white feedback' href='#fgdrei'>Feedback geben</a>" %}
+{% include partials/content/content-infobox.liquid float="right" headline="Autor*innen" copy="- Margit Stumpp<br>- André Hermes<br>- Martin Bregenzer<br>- Stefanie Rack<br>- Stefan Kretzmann<br>- Hannah Ballmann<br>- Mandy Schütze<br><br>Moderation:<br>Maximilian Voigt<br><br><a class='edu-btn white feedback' href='#fgdrei'>Feedback geben</a>" %}
 
 **Mehr Bildungsgerechtigkeit und digitale Kompetenzen durch lokale Lernnetzwerke, Medienberater und binnendifferenzierte OER.**<br>
 Eine gute Bildung ist abhängig vom sozioökonomischen Status – im Brennglas der Krise wird das gerade besonders deutlich. Aber ob Lernende an Bildung teilhaben können, darf nicht vom Geldbeutel oder Bildungsstand der Eltern abhängig sein. Bildung muss allen zukunftsgerechte Kompetenzen vermitteln. Hier braucht es sozialverträgliche Maßnahmen, wie freie Technologien, Freiräume, Unterstützungsangebote und Lernmaterialien, um allen eine gute Bildung zu ermöglichen. 
