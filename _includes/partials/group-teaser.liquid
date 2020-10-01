@@ -6,8 +6,8 @@
             </div>
         {% endif %}
         <div class="teaser-content lab-teaser-content">
-            <h3 class="teaser-headline">{{ include.name }}</h3>
-            {% if include.copy %}<p class="teaser-copy"><strong class="teaser-feature">Thema</strong></br>{{ include.copy }}</p>{% endif %}
+            <h3 class="teaser-headline">{{ include.copy }}</h3>
+            {% if include.copy %}<p class="teaser-copy"><strong class="teaser-feature">{{ include.name }}</strong></p>{% endif %}
             {% if include.attendees %}<p class="teaser-copy"><strong class="teaser-feature">Teilnehmende</strong></br>{{ include.attendees }}</p>{% endif %}
             {% if include.moderation %}<p class="teaser-copy"><strong class="teaser-feature">Moderation</strong></br>{{ include.moderation }}</p>{% endif %}
         </div>

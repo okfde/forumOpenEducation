@@ -3,7 +3,10 @@
 layout: post
 title:  "Fachgruppe 4"
 headline: "Literacies, Innovation und Künstlicher Intelligenz"
-src: "/assets/img/events/2019/foe19_dis.jpg"
+src: "/assets/img/static/FOE-Group_04.png"
+header_background: /assets/img/static/FOE-Group_04.png
+twitter_large_img: /assets/img/static/FOE-Group_04.png
+image: /assets/img/static/FOE-Group_04.png
 link: "/fg4/"
 group: "4"
 attendees: "Ronja Kemmer, Nadine Schön, Martin Lützelberger, Markus Deimann, Melanie Stilz und Jöran Muuß-Merholz"
