@@ -18,7 +18,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: edulabsDE
 staticman_server: 'https://staticman.okfn.de'
 url: "https://education.forum-open.de"
-permalink: /groups/:title
 
 # Build settings
 highlighter: rouge
@@ -69,7 +68,7 @@ collections:
     output: false
   groups:
     output: true
-    permalink: /groups/:title
+    permalink: /groups/:title.html
 
 defaults:
  -
