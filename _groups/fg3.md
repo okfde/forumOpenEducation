@@ -5,6 +5,8 @@ title:  "Fachgruppe 3"
 headline: "Bildung regional transformieren"
 src: "/assets/img/events/2019/foe19_dis.jpg"
 header_background: /assets/img/events/2019/foe19_dis.jpg
+twitter_large_img: /assets/img/events/2019/foe19_dis.jpg
+image: /assets/img/events/2019/foe19_dis.jpg
 link: "/fg3/"
 group: "3"
 attendees: "Margit Stumpp, André Hermes, Martin Bregenzer, Stefanie Rack, Stefan Kretzmann, Hannah Ballmann und Mandy Schütze"
