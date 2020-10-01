@@ -11,7 +11,7 @@ moderation: "Maximilian Voigt"
 
 ---
 
-{% include partials/content/content-infobox.liquid float="right" headline="Die Autorinnen und Autoren" copy="- Margit Stumpp<br>- André Hermes<br>- Martin Bregenzer<br>- Stefanie Rack<br>- Stefan Kretzmann<br>- Hannah Ballmann<br>- Mandy Schütze<br><br>Moderation:<br>Maximilian Voigt" %}
+{% include partials/content/content-infobox.liquid float="right" headline="Die Autorinnen und Autoren" copy="- Margit Stumpp<br>- André Hermes<br>- Martin Bregenzer<br>- Stefanie Rack<br>- Stefan Kretzmann<br>- Hannah Ballmann<br>- Mandy Schütze<br><br>Moderation:<br>Maximilian Voigt<br><br><a class='edu-btn white feedback' href='#fgdrei'>Feedback geben</a>" %}
 
 Mehr Bildungsgerechtigkeit und digitale Kompetenzen durch lokale Lernnetzwerke, Medienberater und binnendifferenzierte OER 
 Eine gute Bildung ist abhängig vom sozioökonomischen Status – im Brennglas der Krise wird das gerade besonders deutlich. Aber ob Lernende an Bildung teilhaben können, darf nicht vom Geldbeutel oder Bildungsstand der Eltern abhängig sein. Bildung muss allen zukunftsgerechte Kompetenzen vermitteln. Hier braucht es sozialverträgliche Maßnahmen, wie freie Technologien, Freiräume, Unterstützungsangebote und Lernmaterialien, um allen eine gute Bildung zu ermöglichen. 
@@ -67,5 +67,5 @@ Für die Realisierung und Ausweitung des selbstorganisierten Lernens durch die r
 * die Initialisierung von Forschungsvorhaben zum Verständnis der Qualitätssicherung und Verbesserung von OER,
 * dezentrale Administrationszentren, die zentral entwickelte Open Source Lösungen lokal hosten - eine Rolle, die Landesmedienzentren einnehmen können.
 
-<center><h2>Diskutiere Mit</h2></center>
+<center><h2 id="fgdrei">Diskutiere Mit</h2></center>
 <div class="video"><iframe src="https://tweedback.de/p8t3/chatwall"></iframe></div>

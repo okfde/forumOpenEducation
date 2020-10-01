@@ -151,7 +151,13 @@ contentpage elements
       display: block;
       line-height: 1.2;
     }
-
+    .feedback{
+        margin-top: 30px;
+        padding: 10px 10px;
+    }
+    a{
+    color: $white;
+    }
   }
 
 }
