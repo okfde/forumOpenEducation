@@ -137,14 +137,12 @@ contentpage elements
     padding: 20px;
 
     .infobox-headline{
-      font-weight: 700;
+      font-weight: 900;
       margin-bottom: 15px;
     }
 
     .infobox-copy{
-    a{
-      text-decoration: underline;
-    }
+
     }
     .infobox-headline, .infobox-copy{
       font-size: 1.25rem;
@@ -154,6 +152,7 @@ contentpage elements
     .feedback{
         margin-top: 30px;
         padding: 10px 10px;
+
     }
     a{
     color: $white;
