@@ -13,8 +13,7 @@ moderation: "Maximilian Voigt"
 
 Mehr Bildungsgerechtigkeit und digitale Kompetenzen durch lokale Lernnetzwerke, Medienberater und binnendifferenzierte OER 
 Eine gute Bildung ist abhängig vom sozioökonomischen Status – im Brennglas der Krise wird das gerade besonders deutlich. Aber ob Lernende an Bildung teilhaben können, darf nicht vom Geldbeutel oder Bildungsstand der Eltern abhängig sein. Bildung muss allen zukunftsgerechte Kompetenzen vermitteln. Hier braucht es sozialverträgliche Maßnahmen, wie freie Technologien, Freiräume, Unterstützungsangebote und Lernmaterialien, um allen eine gute Bildung zu ermöglichen. 
-
-Welche Rahmenbedingungen braucht es dafür, um den digital Gap zu schließen und digitale Tools für mehr Chancengerechtigkeit in der digitalen Gesellschaft zu nutzen?
+<br>Welche Rahmenbedingungen braucht es dafür, um den digital Gap zu schließen und digitale Tools für mehr Chancengerechtigkeit in der digitalen Gesellschaft zu nutzen?
 * Wie müssen organisatorische und digitale Lösungen für unterschiedliche Ziel- und Lerngruppen verschiedener sozioökonomischer Herkunft aussehen? 
 * Wie schaffen wir einen Mehrwert für das lebensbegleitende Lernen, insbesondere auch für Lehrende?
 * Und wie müssen Lernräume der Zukunft gestaltet werden?
@@ -31,7 +30,7 @@ Wie sollen schulische Einrichtungen den veränderten Anforderungen gerecht werde
 In diesem auch als “Connected Learning” bezeichnetem Umfeld werden Lehrende zunehmend durch ihre Rolle des Lernbegleiters entlastet, die ihnen mehr Freiheitsgrade bei der Ausfüllung notwendiger Beziehungsarbeit gibt. Gleichzeitig bekommen sie selbst Einblicke in neue Lernszenarien, in die Anwendung von Tools und Konzepten, wodurch sich Fortbildungseffekte ergeben. 
 
 
-**Dafür braucht es:**<br>
+### Dafür braucht es:
 * mehr Freiräume im Lehrplan, wie sie auch die OECD im Lernkompass 2030 fordert,
 * eine zeitgemäße Prüfungskultur, die die Bewertung von projektbasierten Formaten erleichtert,
 * mehr zeitliche Ressourcen für Lehrende,
@@ -49,7 +48,7 @@ Für die Begleitung der Schulen bei der Anbindung an die regionalen Lernnetzwerk
 Im Kontext der regionalen Lernnetzwerke fungiert diese Person außerdem als Schnittstelle zwischen den außerschulischen Einrichtungen und als Ansprechpartnerin in der Institution selbst. Sie ist nicht zuständig für den Aufbau, die Wartung und Administration der technischen und organisatorischen Infrastruktur an Schulen.
 Um seiner/ihrer Aufgabe gerecht werden zu können, muss die Rolle von Medienberater*innen als Expert*innen für offene Lerntechnologien gestärkt werden.  
 
-**Dafür braucht es:**
+### Dafür braucht es:
 * die Öffnung für innovative Impulse aus dem außerschulischen Bereich seitens der Schule - dahingehend muss die Rolle der Medienberatung erweitert werden,
 * die Qualifizierung von Medienberater*innen in der Beratung und im Auf- und Ausbau von offenen Technologien,
 * eine verlässliche Finanzierung seitens der Länder. 
@@ -59,7 +58,7 @@ Um seiner/ihrer Aufgabe gerecht werden zu können, muss die Rolle von Medienbera
 Für handlungsorientierte, digitale Lern- und Arbeitsprozesse sind rechtssichere Bildungsmaterialien von besonderer Bedeutung. OER gelten durch ihre (freie) Creative Commons-Lizenzierung als rechtssicher. OER sind darüber hinaus auf die Bedürfnisse der Lernenden und den Lehr- und Lernkontext anpassbar und ermöglichen somit größtmögliche pädagogische Freiheit sowie eine integrative, inklusive, binnendifferenzierte Arbeitsweise. 
 Für die Realisierung und Ausweitung des selbstorganisierten Lernens durch die regionalen Lernnetzwerke ist ein breites Angebot von binnendifferenzierten OER ein elementarer Bestandteil. Denn nur so können Lernende ihren individuellen Lernweg gestalten. Für eine inklusive und integrative Bildung ist die Förderung von binnendifferenzierten Digitallösungen (Open Source) sowie Konzepten (OER) für unterschiedliche Ziel- und Lerngruppen verschiedener sozioökonomischer Herkunft notwendig. 
 
-**Dafür braucht es:**<br>
+### Dafür braucht es:
 * den Aufbau eines “Documentation Funds” für innovative Offene Bildungsmaterialien und -konzepte - insbesondere auch für außerschulische Akteure,
 * zeitliche Entlastungen für Lehrende, die ihre Konzepte und Materialien dokumentieren und veröffentlichen,
 * die Verstetigung von Suchmaschinen für OER,

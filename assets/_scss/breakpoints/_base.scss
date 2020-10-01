@@ -650,6 +650,18 @@ PAGE & SECTIONS
     background-color: $link-background-hover;
   }
 
+
+}
+
+.konzepte {
+  ol,
+  ul {
+     list-style-type: initial;
+     margin-bottom: 50px;
+  }
+  h3{
+     margin-top: 50px;
+  }
 }
 
 .grid-sizer{
