@@ -17,9 +17,9 @@ email: info@edulabs.de
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: edulabsDE
-permalink: /blog/:title
+permalink: /groups/:title
 staticman_server: 'https://staticman.okfn.de'
-url: "https://edulabs.de" 
+url: "https://education.forum-open.de"
 
 # Build settings
 highlighter: rouge
