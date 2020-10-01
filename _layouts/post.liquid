@@ -6,9 +6,9 @@
     {% if page.visible == 0 %}
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {% endif %}
-    <meta name="author" content="edulabs.de">
+    <meta name="author" content="education.forum-open.de">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/static/edulabs.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/static/ForumOpen.ico">
     {% if page.twitter_large_img %}
     <meta name="twitter:card" content="summary_large_image" />
     {% else %}
@@ -88,40 +88,17 @@
                     {{ content }}
                 </div>
             </div>
-            <!-- Newsletter -->
-            <div class="content-wrap btn-wrap">
-                <a class="edu-btn black" href="http://okfn.us5.list-manage.com/subscribe?u=929f1e07936386d34833e20d1&id=9ceae2ed43" target="_blank">Zum edulabs Newsletter</a>
-            </div>
         </section>
-        <!-- prev/next -->
-        <div class="row">
-            <section class="section col-xs-24">
-                {% if page.previous %}
-                <a class="post-btn prev" href="{{ page.previous.url }}">Vorheriger Artikel</a>
-                {% endif %}
-                {% if page.next %}
-                <a class="post-btn next" href="{{ page.next.url }}">Nächster Artikel</a>
-                {% endif %}
-            </section>
-        </div>
 
-        <div class="row">
-            <section class="content-wrap subpage">
-              {% include page__comments.html %}
-            </section>
-        </div>
-
-
-        <!-- blog -->
+        <!-- übersicht fachgruppen -->
         <div class="row">
             <section class="section green col-xs-24">
                 <div class="content-wrap">
-                    <h2 class="section-headline">Verwandte Artikel</h2>
+                    <h2 class="section-headline">Weitere Fachgruppen</h2>
                 </div>
                 <!-- blog teasers -->
-                {% include partials/blog/blog-isotope.liquid posts_num=3 not_featured=true %}
                 <div class="content-wrap btn-wrap">
-                    <a class="edu-btn black" href="/blog" target="_blank">Alle Artikel</a>
+                    <a class="edu-btn white" href="/groups">Zur Übersicht</a>
                 </div>
             </section>
         </div>

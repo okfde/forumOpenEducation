@@ -17,7 +17,6 @@ email: info@edulabs.de
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: edulabsDE
-permalink: /groups/:title
 staticman_server: 'https://staticman.okfn.de'
 url: "https://education.forum-open.de"
 
@@ -69,7 +68,8 @@ collections:
   events:
     output: false
   groups:
-    output: false
+    output: true
+    permalink: /groups/:title
 
 defaults:
  -
