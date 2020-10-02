@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Fachgruppe 1"
-headline: "Verhältnis von digitaler zu sozialer Ungleichheit"
+headline: "Für eine zeitgemäße und chancengleiche Bildung in der Digitalität"
 src: "/assets/img/static/FOE-Group_01.png"
 header_background: /assets/img/static/FOE-Group_01.png
 twitter_large_img: /assets/img/static/FOE-Group_01.png

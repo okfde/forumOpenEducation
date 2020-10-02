@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Fachgruppe 4"
-headline: "Literacies, Innovation und Künstlicher Intelligenz"
+headline: "Lernen mit und über Künstliche Intelligenz"
 src: "/assets/img/static/FOE-Group_04.png"
 header_background: /assets/img/static/FOE-Group_04.png
 twitter_large_img: /assets/img/static/FOE-Group_04.png

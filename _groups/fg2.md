@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Fachgruppe 2"
-headline: "OER in Hochschule und der Lehrkräftebildung"
+headline: "Bildung für eine offene, digitale Gesellschaft"
 src: "/assets/img/static/FOE-Group_02.png"
 header_background: /assets/img/static/FOE-Group_02.png
 twitter_large_img: /assets/img/static/FOE-Group_02.png
