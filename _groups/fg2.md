@@ -9,7 +9,7 @@ twitter_large_img: /assets/img/static/FOE-Group_02.png
 image: /assets/img/static/FOE-Group_02.png
 link: "/fg2/"
 group: "2"
-attendees: "Katja Suding, Dr. Jens Brandenburg, Dr. Norbert Kleinefeld, Nele Hirsch, Frank J. Müller, Mario Ganz, Jan Neumann und Manfred Steger"
+attendees: "Katja Suding, Dr. Jens Brandenburg, Dr. Norbert Kleinefeld, Aliki Kaiser, Nele Hirsch, Frank J. Müller, Mario Ganz, Jan Neumann und Manfred Steger"
 moderation: "Dominik Theis"
 
 ---
