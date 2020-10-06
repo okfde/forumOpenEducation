@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Fachgruppe 3"
-headline: "Bildung regional transformieren"
+headline: "Lernen in regionalen Netzwerken"
 src: "/assets/img/static/FOE-Group_03.png"
 header_background: /assets/img/static/FOE-Group_03.png
 twitter_large_img: /assets/img/static/FOE-Group_03.png
