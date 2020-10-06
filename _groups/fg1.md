@@ -65,6 +65,6 @@ Unterstützt werden diese Selbstwirksamkeitsprozesse durch die hohe Qualität de
 * Neben eines Konzeptes für einen Buchbestand wird ein Konzept für Lizenzierungen benötigt.
 * Bereitstellung von einem ausreichend großen Sortiment an Endgeräten, bestückt mit digitalen (Lese)-Medien und offener Software
 * Notwendige Kapazitäten für die Verzeichnung, Wartung und Pflege der Bestände.
-
+<br><br>
 <center><h2 id="fgeins">Diskutiere mit</h2></center>
 <div class="video"><iframe src="https://tweedback.de/p7uj/chatwall"></iframe></div>
