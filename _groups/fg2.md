@@ -74,5 +74,7 @@ Darüber hinaus spielt die Anerkennung durch die Institution beziehungsweise der
 Lehrende benötigen bei der Erstellung und Veröffentlichung von OER strukturelle, personelle, finanzielle und rechtliche Unterstützung. Dieser Bedarf erstreckt sich von der Finanzierung für Übersetzungen, Videoschnitt, die Beratung zu rechtlichen Aspekten und grafischer Darstellung bis hin zu institutionellen Policies, die OER “befürworten”.
 Fortbildungs- und Weiterbildungsmöglichkeiten zu freier Lizenzierung, Datenschutz und Nutzungsrechten erleichtern den Lehrenden den Einstieg in die OER-Community, die auch in den Einrichtung selbst etabliert werden sollte. Das beinhaltet die Einführung von Tandems, Tutor\*innen oder einer Begleitung auf Zeit. 
 <br><br>
+<center><a class='edu-btn black feedback' href='/assets/data/FOE20_Fachgruppe 2_Konzeptpapier.pdf'>Dokument Drucken</a></center>
+<br><br>
 <center><h2 id="fgzwei">Diskutiere mit</h2></center>
 <div class="video"><iframe src="https://tweedback.de/p7ub/chatwall"></iframe></div>

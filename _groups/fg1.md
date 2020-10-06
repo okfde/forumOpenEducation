@@ -66,5 +66,7 @@ Unterstützt werden diese Selbstwirksamkeitsprozesse durch die hohe Qualität de
 * Bereitstellung von einem ausreichend großen Sortiment an Endgeräten, bestückt mit digitalen (Lese)-Medien und offener Software
 * Notwendige Kapazitäten für die Verzeichnung, Wartung und Pflege der Bestände.
 <br><br>
+<center><a class='edu-btn black feedback' href='/assets/data/FOE20_Fachgruppe 1_Konzeptpapier.pdf'>Dokument Drucken</a></center>
+<br><br>
 <center><h2 id="fgeins">Diskutiere mit</h2></center>
 <div class="video"><iframe src="https://tweedback.de/p7uj/chatwall"></iframe></div>

@@ -67,5 +67,7 @@ Für die Realisierung und Ausweitung des selbstorganisierten Lernens durch die r
 * die Initialisierung von Forschungsvorhaben zum Verständnis der Qualitätssicherung und Verbesserung von OER,
 * dezentrale Administrationszentren, die zentral entwickelte Open Source Lösungen lokal hosten - eine Rolle, die Landesmedienzentren einnehmen können.
 <br><br>
+<center><a class='edu-btn black feedback' href='/assets/data/FOE20_Fachgruppe 3_Konzeptpapier.pdf'>Dokument Drucken</a></center>
+<br><br>
 <center><h2 id="fgdrei">Diskutiere mit</h2></center>
 <div class="video"><iframe src="https://tweedback.de/p7un/chatwall"></iframe></div>
