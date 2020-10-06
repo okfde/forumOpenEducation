@@ -13,7 +13,7 @@ moderation: "Marie-Luise Guhl"
 
 ---
 
-{% include partials/content/content-infobox.liquid float="right" headline="Autor*innen" copy="- Marja-Liisa Völlers<br>- Anja Lorenz<br>- Jana Haase<br>- Björn Lefers<br>- Charlotte Echterhoff<br>- Kevin Einig<br>- Celestine Kleinesper<br>- Katharina Mosene<br>- Sigrid Fahrer<br>- Erik Grun<br><br>Moderation:<br>Maximilian Voigt<br><br><a class='edu-btn white feedback' href='#fgeins'>Feedback geben</a>" %}
+{% include partials/content/content-infobox.liquid float="right" headline="Autor*innen" copy="- Marja-Liisa Völlers<br>- Anja Lorenz<br>- Jana Haase<br>- Björn Lefers<br>- Charlotte Echterhoff<br>- Kevin Einig<br>- Celestine Kleinesper<br>- Katharina Mosene<br>- Sigrid Fahrer<br>- Erik Grun<br><br>Moderation:<br>Marie-Luise Guhl<br><br><a class='edu-btn white feedback' href='#fgeins'>Feedback geben</a>" %}
 
 ### Durch Bibliotheken als Medienzentren und Moderatorinnen des Wandels
 Im Hinblick auf die Chancengleichheit ist vor allem die Beschaffung, Ausleihe und Wartung von Geräten sowie sonstiger IT-Infrastruktur notwendig, aber auch die Weiterbildung von Multiplikator\*innen an Schulen, um Open Educational Resources (OER) zu erstellen, speichern, bearbeiten und zu verbreiten.
