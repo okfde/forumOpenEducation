@@ -19,7 +19,7 @@ moderation: "Maximilian Voigt"
 ### Mehr Bildungsgerechtigkeit und digitale Kompetenzen durch lokale Lernnetzwerke, Medienberater und binnendifferenzierte OER.
 Eine gute Bildung ist abhängig vom sozioökonomischen Status – im Brennglas der Krise wird das gerade [besonders deutlich](https://www.bmfsfj.de/bmfsfj/aktuelles/alle-meldungen/allensbach-studie-zeigt-umgang-mit-corona-herausforderungen/156110). Aber ob Lernende an Bildung teilhaben können, darf nicht vom Geldbeutel oder Bildungsstand der Eltern abhängig sein. Bildung muss allen zukunftsgerechte Kompetenzen vermitteln. Hier braucht es sozialverträgliche Maßnahmen, wie freie Technologien, Freiräume, Unterstützungsangebote und Lernmaterialien, um allen eine gute Bildung zu ermöglichen. 
 
-* Welche Rahmenbedingungen braucht es dafür den digital Gap zu schließen und digitale Tools für mehr Chancengerechtigkeit in der digitalen Gesellschaft zu nutzen?
+* Welche Rahmenbedingungen braucht es, den digital Gap zu schließen und digitale Tools für mehr Chancengerechtigkeit in der digitalen Gesellschaft zu nutzen?
 * Wie müssen organisatorische und digitale Lösungen für unterschiedliche Ziel- und Lerngruppen verschiedener sozioökonomischer Herkunft aussehen? 
 * Wie schaffen wir einen Mehrwert für das lebensbegleitende Lernen, insbesondere auch für Lehrende?
 * Und wie müssen Lernräume der Zukunft gestaltet werden?
