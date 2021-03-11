@@ -19,13 +19,15 @@
                 <li {% if base_dir[2] == 'timeline' %} class="current" {% endif %}><a href="/2018/timeline">Programm</a></li>
                 <li><a href="https://edulabs.de/blog/Rueckblick-Forum-Open">Dokumentation</a></li>
                 <li {% if base_dir[1] == 'events' %} class="current" {% endif %}><a href="/events">Vergangene Events</a></li>
-            {% else %}
+            {% elsif (base_dir[1] == "2020") %}
                 <li>#FOE20</li>
+                <li {% if base_dir[2] == 'timeline' %} class="current" {% endif %}><a href="/2020/timeline-20">Programm</a></li>
+                <li {% if base_dir[2] == 'stream' %} class="current" {% endif %}><a href="/2020/stream">Dokumentation</a></li>
+                <li {% if base_dir[1] == 'groups' %} class="current" {% endif %}><a href="/2020/groups/">Fachgruppen</a></li>
+                <li {% if base_dir[1] == 'events' %} class="current" {% endif %}><a href="/events">Vergangene Events</a></li>
+            {% else %}
+                <li>#FOE21 - am 25. und 26. August</li>
                 <li {% if base_dir[1] == 'events' %} class="current" {% endif %}><a href="/events">Past Events</a></li>
-                <li {% if base_dir[1] == 'timeline' %} class="current" {% endif %}><a href="/timeline">Programm</a></li>
-                <li {% if base_dir[1] == 'groups' %} class="current" {% endif %}><a href="/groups/">Fachgruppen</a></li>
-                <li {% if base_dir[1] == 'stream' %} class="current" {% endif %}><a href="/stream/">Zur Aufzeichnung</a></li>
-
             {% endif %}
 
         </ul>
