@@ -68,7 +68,7 @@ collections:
     output: false
   groups:
     output: true
-    permalink: /groups/:title.html
+    
 
 defaults:
  -
