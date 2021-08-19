@@ -8,7 +8,15 @@
         <div class="teaser-content lab-teaser-content">
             <h3 class="teaser-headline">{{ include.copy }}</h3>
             {% if include.copy %}<p class="teaser-copy"><strong class="teaser-feature">{{ include.name }}</strong></p>{% endif %}
-            {% if include.attendees %}<p class="teaser-copy"><strong class="teaser-feature">Teilnehmende</strong></br>{{ include.attendees }}</p>{% endif %}
+            {% if include.attendees %}
+                {% assign attendees = include.attendees | split: ',' | join:', ' %}
+                <p class="teaser-copy"><strong class="teaser-feature">Teilnehmende</strong></br>
+                    {% for attendees in attendees %}
+                        {{ attendees }}
+                    {% endfor %}
+                </p>
+
+            {% endif %}
             {% if include.moderation %}<p class="teaser-copy"><strong class="teaser-feature">Moderation</strong></br>{{ include.moderation }}</p>{% endif %}
         </div>
 
