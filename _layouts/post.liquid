@@ -92,17 +92,19 @@
         </section>
 
         <!-- übersicht fachgruppen -->
-        <div class="row">
-            <section class="section green col-xs-24">
-                <div class="content-wrap">
-                    <h2 class="section-headline">Weitere Arbeitsgruppen</h2>
-                </div>
-                <!-- blog teasers -->
-                <div class="content-wrap btn-wrap">
-                    <a class="edu-btn white" href="/2021/groups">Zur Übersicht</a>
-                </div>
-            </section>
-        </div>
+        {% if page.grouplink %}
+            <div class="row">
+                <section class="section green col-xs-24">
+                    <div class="content-wrap">
+                        <h2 class="section-headline">Weitere Arbeitsgruppen</h2>
+                    </div>
+                    <!-- blog teasers -->
+                    <div class="content-wrap btn-wrap">
+                        <a class="edu-btn white" href="{{ page.grouplink }}">Zur Übersicht</a>
+                    </div>
+                </section>
+            </div>
+        {% endif %}
         <!-- blog -->
     </div>
     <!-- include mitmachen section -->
