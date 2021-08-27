@@ -27,9 +27,10 @@
                 <li {% if base_dir[1] == 'events' %} class="current" {% endif %}><a href="/events">Vergangene Events</a></li>
             {% else %}
                 <li>#FOE21</li>
-                <li {% if base_dir[1] == 'about' %} class="current" {% endif %}><a href="/about">Über das FOE21</a></li>
+                <li {% if base_dir[1] == 'about' %} class="current" {% endif %}><a href="/about">Über das FOE</a></li>
                 <li {% if base_dir[1] == 'events' %} class="current" {% endif %}><a href="/events">Past Events</a></li>
                 <li {% if base_dir[1] == 'groups' %} class="current" {% endif %}><a href="/2021/groups/">Arbeitsgruppen</a></li>
+                <li {% if base_dir[2] == 'stream' %} class="current" {% endif %}><a href="/stream">Aufzeichnung</a></li>
             {% endif %}
 
         </ul>

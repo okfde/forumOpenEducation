@@ -10,7 +10,13 @@ permalink: /groups/
             <h2 class="section-headline">Fachgruppen des Forums Open Education</h2>
             <p>Das Forum ist in einen Prozess eingebettet, in dem engagierte Bildungsenthusiast*innen der Open-Education-Community gemeinsam mit Bildungspolitiker*innen verschiedener Fraktionen des Bundestages in Fachgruppen Herausforderungen in der Bildungslandschaft bearbeiten. Im Folgenden werden alle Fachgruppen aufgeführt.</p>
         </div>
+        <div class="team-teaser-wrap col-xs-22 col-xs-push-1 col-md-22 col-md-push-3 col-lg-18 col-lg-push-4">
+            {% for groups in site.groups %}
 
+            {% include partials/group-teaser.liquid year=groups.year moderation=groups.moderation attendees=groups.attendees group=groups.group name=groups.title url=groups.url src=groups.src copy=groups.headline %}
+
+            {% endfor %}
+        </div>
     </section>
 </div>
 
