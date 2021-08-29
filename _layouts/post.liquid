@@ -72,7 +72,7 @@
             <div class="content-wrap subpage">
 
                 <h1 class="section-headline">{{ page.headline }}</h1>
-                <div class="post-date">{{ page.title }}</div>
+                <div class="post-date">{{ page.title }} - {{ page.year }}</div>
                 {% if page.author %}
                 <div class="blue post-author">{{ page.author }}</div>
                 {% endif %}
@@ -96,7 +96,7 @@
             <div class="row">
                 <section class="section green col-xs-24">
                     <div class="content-wrap">
-                        <h2 class="section-headline">Weitere Arbeitsgruppen</h2>
+                        <h2 class="section-headline">Weitere Arbeitsgruppen aus {{ page.year }}</h2>
                     </div>
                     <!-- blog teasers -->
                     <div class="content-wrap btn-wrap">
@@ -107,7 +107,6 @@
         {% endif %}
         <!-- blog -->
     </div>
-    <!-- include mitmachen section -->
-    {% include partials/sections/apply.liquid %}
+
 </div>
 {% include footer.liquid %}
